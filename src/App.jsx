@@ -1,16 +1,16 @@
 import React from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
-import Features from './components/Features';
+import SectionsOverview from './components/SectionsOverview';
 import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="min-h-screen bg-[#05060A] text-white antialiased">
+    <div className="min-h-screen bg-[#07080C] text-white antialiased selection:bg-indigo-500/30">
       <Header />
       <main>
         <Hero />
-        <Features />
+        <SectionsOverview />
       </main>
       <Footer />
     </div>
